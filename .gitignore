@@ -1,0 +1,30 @@
+# IDE garbage
+.vscode/
+.idea/
+.eclipse/
+.metadata/
+.settings/
+
+# Build directories
+[Bb]uild/
+[Oo]bj/
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+[Dd]ist/
+[Oo]ut/
+
+# Executables
+*.exe
+*.com
+*.bat
+*.cmd
+*.dll
+*.lib
+*.pdb
+*.pyc
+*.pyo
+*.luac
+*.lub
+*.o
+*.out
