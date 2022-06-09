@@ -1,5 +1,6 @@
 package;
 
+import entity.Enemy;
 import entity.Player;
 import flixel.FlxG;
 import flixel.FlxSprite;
