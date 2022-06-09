@@ -45,7 +45,7 @@ class Menu extends FlxState
 		add(title);
 		playButton = new FlxButton(0, 0, "Play", function()
 		{
-			FlxG.switchState(new Arena());
+			FlxG.switchState(new GameSelector());
 		});
 		playButton.screenCenter(XY);
 		playButton.y += 0.2 * (FlxG.height / 2);
