@@ -40,6 +40,8 @@ class GameSelector extends FlxState
 	override public function update(dt:Float)
 	{
 		super.update(dt);
+
+		textInput.x = FlxG.width / 2 - textInput.width / 2;
 	}
 
 	public function processInput(text:String)
